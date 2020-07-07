@@ -9,7 +9,7 @@ jobs:
               uses: sudo-bot/action-fork-sync@v1.0.4
               with:
                   source-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/Alanscut/JSON-test.git"
-                  fork-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/Alanwang2015/JSON-tes.git"
+                  fork-url: "https://${{ secrets.BOT_TOKEN }}:x-oauth-basic@github.com/Alanwang2015/JSON-test.git"
                   dry-run: "false"
                   clone-depth: "100"
                   branches: master
